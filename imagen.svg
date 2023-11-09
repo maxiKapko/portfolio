@@ -1,0 +1,25 @@
+<svg width="1864" height="346" viewBox="0 0 1864 346" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <style>
+        #logo {
+            stroke-dasharray: 4200;
+            stroke-dashoffset: 0;
+            -webkit-animation: dash 10s linear forwards;
+            -o-animation: dash 10s linear forwards;
+            -moz-animation: dash 10s linear forwards;
+            animation: dash 10s linear forwards;
+        }
+
+        @-webkit-keyframes dash {
+            from {
+                stroke-dashoffset: 4200;
+            }
+
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+    </style>
+</defs>
+<path id="logo" d="M1555 122C1509.83 200.5 1481.2 324.7 1728 193.5C1974.8 62.3 1825.17 144.5 1719.5 202L1844.5 282C1880.83 322.5 1887.4 385 1623 311C1344.5 348.5 1582 316.5 1367 202C1152 87.5 1174 180 1151 273.5C1132.6 348.3 1097.67 316.333 1082.5 291C1068.17 291.333 530.2 377.3 365 298.5C167 154.9 145.5 91.6667 159.5 78L113.5 1.5L10.5 68.5L125 210H0" stroke="black"/>
+</svg>
