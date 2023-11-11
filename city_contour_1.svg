@@ -1,0 +1,19 @@
+<svg width="1393" height="336" viewBox="0 0 1393 336" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+    <style>
+            #city_1 {
+            stroke-dasharray: 6500;
+            stroke-dashoffset: 0;
+            -webkit-animation: dash 40s linear forwards;
+            -o-animation: dash 40s linear forwards;
+            -moz-animation: dash 40s linear forwards;
+            animation: dash 40s linear forwards;
+            animation-iteration-count: infinite;
+            animation-direction:alternate;
+            }
+
+            <!-- Ida y vuelta --> @-webkit-keyframes dash { from { stroke-dashoffset: 6500; } to {
+            stroke-dashoffset: -6500; } } </style>
+    </defs>
+<path id="city_1" d="M0 300H10V111H24L27 61.5H31L35 111H107V117H112V154.5H107V162.5H112V199.5H107.5V208H112V245H107.5V253.5H112V291H107.5V335H137V150H144.5L155 122H190L200.5 150H211.5V133L252.5 122.5V150H258.5V326.5H292V178H305V152.5H308.5V178H325.5V187.5L343 212H350.5V300.5H384V136.5H394V117.5L461 102H465V136.5H474V318.5H502.5V162.5H514L515.5 127.5H517L519 162.5H530V208.5H542.5V199H552V208.5H559V297H578.5V263H595V201H590V192.5H700.5V201H696V263.5H712.5V323H737V100.5H754.5L756.5 49H759L761.5 100.5H779.5V171.5H782V173.5H784V171.5H797V157.5H811V171.5H822V301.5H850.5V257.5L917.5 232V274H935V191H944V179.5H954.5V191H969V135.5H984L985.5 94.5H987.5L989 135.5H1003V328H1031V116H1054.5V99H1080.5V116H1104V291.5H1136V78H1146.5V54H1180.5V0.5H1185.5V35.5H1216V78H1225.5V316.5H1254V126.5C1257.67 119.5 1268.9 105.6 1284.5 106V97H1297L1304 46.5L1311.5 97H1323V106C1332.33 106.167 1351.6 110.5 1354 126.5V287.5H1393" stroke="white"/>
+</svg>

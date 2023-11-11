@@ -1,16 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <div class="container" style="text-align: center;padding:150px 0;">
-        <object data="" type="">
-            <embed src="imagen.svg" type="" style="width: 100%;position: absolute;top:100">
-        </object>
+  </head>
+  <body>
+    <div class="container" style="text-align: center; padding: 0;">
+      <object data="" type="">
+        <img src="city_contour_1.svg" type="" class="edificios"/>
+           
+          <img src="Vector 14.svg" type="" class="reflejo"/>
+        
+      </object>
     </div>
-</body>
-</html>
+    <div class="bottom" style="color:white;background-color: red;position: absolute;bottom: 0;width: 100%;height: fit-content;padding: 12px;">
+        abajo
+    </div>
+  </body>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
 
+    img{    
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .edificios,
+    .reflejo {
+      width: 100%;
+    }
+    .reflejo_div{
+        position: relative;
+    }
+
+    .edificios {
+      background: linear-gradient(#aaabb1, #000000);
+    }
+
+    .reflejo {
+      background: linear-gradient(#1b0459, #8990e3);
+  
+    }
+  </style>
+</html>
